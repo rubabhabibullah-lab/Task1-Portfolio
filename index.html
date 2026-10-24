@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home">Rubab Knawal<span>developer</span></a>
+  <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">☼</button>
+  </nav>
+</header>
+<main>
+<section id="home" class="hero section">
+  <div class="hero-text">
+    <p class="tag">HELLO, WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span> Rubab Kanwal </h1>
+    <p class="intro">I create clean, responsive and user-friendly websites. I enjoy learning new skills and turning ideas into useful digital experiences.</p>
+    <a class="btn" href="#projects">Explore My Work ↗</a>
+    <a class="btn btn-outline" href="#contact">Contact Me</a>
+    <div class="stats"><div><b>02</b><small>Practice Projects</small></div><div><b>03</b><small>Core Technologies</small></div><div><b>100%</b><small>Ready to Learn</small></div></div>
+  </div>
+  <div class="art">
+    <div class="code-card"><div class="dots">● <span>●</span> <i>●</i><small>developer.js</small></div>
+      <pre><span>const</span> developer = {
+  creative: <b>true</b>,
+  curious: <b>true</b>,
+  alwaysLearning: <b>true</b>
+};
+
+// building one idea at a time
+<span>function</span> create() {
+  return <em>"something useful"</em>;
+}</pre>
+    </div><div class="bubble b1">HTML5</div><div class="bubble b2">CSS3</div><div class="bubble b3">JS</div>
+  </div>
+</section>
+<section id="about" class="section">
+  <div class="section-title"><p class="tag">A LITTLE INTRODUCTION</p><h2>About <span>Me</span></h2><p>Curious by nature. Focused on learning. Excited to build.</p></div>
+  <div class="about-card"><div class="star">✦</div><div><h3>Turning ideas into websites</h3>
+    <p> I am a passionate learner interested in web development
+        and data entry. I enjoy creating clean, attractive and
+        user-friendly websites using HTML, CSS and JavaScript.
+        My projects include a Smart Calculator, a Personal
+        Portfolio and a Pastel Purple Gallery. I am always
+        learning new skills and working to improve my abilities.</p>
+    <p class="hint"><b>Personalize this section:</b> Replace this text with a truthful introduction about yourself.</p></div></div>
+</section>
+<section id="skills" class="section alt">
+  <div class="section-title"><p class="tag">WHAT I'M LEARNING</p><h2>My <span>Skills</span></h2><p>Core tools I use to build and style web pages.</p></div>
+  <div class="cards three">
+    <article class="card"><div class="skill-icon orange">&lt;/&gt;</div><h3>HTML5</h3><p>Page structure and accessible content.</p><div class="bar">
+      <i style="width:80%"></i></div><small>Learning level — update honestly</small></article>
+    <article class="card"><div class="skill-icon purple">✳</div><h3>CSS3</h3><p>Layouts, styling and responsive design.</p><div class="bar">
+      <i style="width:70%"></i></div><small>Learning level — update honestly</small></article>
+    <article class="card"><div class="skill-icon yellow">JS</div><h3>JavaScript</h3><p>Interactions and website functionality.</p><div class="bar">
+      <i style="width:55%"></i></div><small>Learning level — update honestly</small></article>
+  </div>
+</section>
+<section id="projects" class="section">
+  <div class="section-title"><p class="tag">THINGS I'VE BUILT</p><h2>Featured <span>Projects</span></h2><p>A growing collection of practice projects.</p></div>
+  <div class="cards two">
+    <article class="project"><div class="project-art calc-art"><div class="calc-screen">1,024 ÷ 8<strong>128</strong></div>
+      <div class="keys"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-body">
+      <small>01 · HTML · CSS · JS</small><h3>Smart Calculator</h3><p>A responsive calculator for everyday arithmetic and scientific functions.</p>
+      
+<a href="./Calculater/index.html" target="_blank" rel="noopener">
+  View Calculater ↗
+</a>
+</article>
+
+    <article class="project"><div class="project-art web-art"><div class="mock"><div class="mockbar">● ● ●</div>
+      <div class="mockbody"><div><i></i><i></i><i></i><b></b></div><span></span></div></div></div><div class="project-body">
+        
+        <small>02 · HTML · CSS · JS</small><h3>Personal Portfolio</h3><p>A personal website to present skills, work and contact details.</p>
+        <a href="#home">You're viewing it ↗</a></div></article>
+    <article class="project"><div class="project-art web-art"><div class="mock"><div class="mockbar">● ● ●</div>
+      <div class="mockbody"><div><i></i><i></i><i></i><b></b></div><span></span></div></div></div><div class="project-body"><small>03 · HTML · CSS · JS</small>
+        <h3>Pastel Purple Gallery</h3><p>A soft pastel photo gallery featuring flowers, animals, cities and creative visuals.</p>
+        <a href="./Gallery/index.html" target="_blank" rel="noopener">View Gallery ↗</a></div></article>
+  </div>
+</section>
+<section id="contact" class="section alt">
+  <div class="contact-grid"><div><p class="tag">LET'S CONNECT</p><h2>Have a project<br>in <span>mind?</span></h2>
+    <p class="muted">Update the sample contact details before publishing your website.</p>
+    <p class="contact-info">✉ &nbsp; your.email@example.com</p><p class="contact-info">⌖ &nbsp; Sindh Pakistan </p></div>
+  <form id="contactForm" class="form"><label for="visitorName">Your name</label><input id="visitorName" required placeholder="Enter your name">
+    <label for="visitorEmail">Email address</label><input id="visitorEmail" type="email" required placeholder="you@example.com"><label for="visitorMessage">Message</label>
+    <textarea id="visitorMessage" rows="4" required placeholder="Tell me about your idea..."></textarea><button class="btn" type="submit">Prepare Message ↗</button>
+    <small id="formNote">Demo form — does not send messages to a server.</small></form></div>
+</section>
+</main>
+<footer><a class="logo" href="#home">Rubab Kanwal<span>developer</span></a><p>Designed while learning · Built with HTML, CSS & JavaScript</p><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
